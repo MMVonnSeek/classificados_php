@@ -14,13 +14,13 @@
             <ul class="nav-links">
                 <?php if (isset($_SESSION['usuario_id'])):?>
                 <!--Links para usuário logado-->
-                <li><a href="">Meus Anúncios</a></li>
-                <li><a href="">Criar Anúncio</a></li>
-                <li><a href="">Sair</a></li>
+                <li><a href="/anuncios/meus_anuncios.php">Meus Anúncios</a></li>
+                <li><a href="/mini_classificados/anuncios/novo_anuncio.php">Criar Anúncio</a></li>
+                <li><a href="/auth/logout.php">Sair</a></li>
                 <?php else: ?>
                 <!--Links para visitante-->
-                <li><a href="">Login</a></li>
-                <li><a href="">Cadastre-se</a></li>
+                <li><a href="/auth/login.php">Login</a></li>
+                <li><a href="/auth/cadastro.php">Cadastre-se</a></li>
                 <?php endif;?>
             </ul>
         </nav>
