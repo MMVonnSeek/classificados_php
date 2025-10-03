@@ -16,6 +16,7 @@ $banco = "classificados_db";
 // CORREÇÃO ESTÁ AQUI: Usando a variável correta $senha_db
 $conexao = mysqli_connect($servidor, $usuario_db, $senha_db, $banco);
 
+
 // --- Verifica a Conexão ---
 if (!$conexao) {
     // Se a conexão falhar, o script para aqui e mostra o erro exato.

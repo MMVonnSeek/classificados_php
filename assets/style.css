@@ -1,0 +1,201 @@
+/* Reset Básico e Configurações Gerais */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    flex: 1;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #003366; /* Azul SENAI */
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #003366;
+}
+
+.btn-anunciar {
+    background-color: #003366;
+    color: #fff !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Formulários */
+.form-wrapper {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0055a4;
+}
+
+/* Grid de Anúncios */
+.anuncios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.anuncio-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.anuncio-card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #003366;
+}
+
+.anuncio-card .preco {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #28a745;
+    margin: 5px 0;
+}
+
+.anuncio-card .categoria {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.anuncio-card.manage {
+    position: relative;
+    padding-bottom: 50px; /* Espaço para os botões */
+}
+
+.anuncio-card .actions {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.actions a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 0.9em;
+}
+
+.actions a.edit { background-color: #ffc107; }
+.actions a.delete { background-color: #dc3545; }
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    color: #6c757d;
+    margin-top: 30px;
+}
+
+/* Mensagens de Erro/Sucesso */
+.error { color: #dc3545; font-weight: bold; }
+.success { color: #28a745; font-weight: bold; }
