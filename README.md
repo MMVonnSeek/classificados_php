@@ -86,6 +86,8 @@ Este projeto foi desenvolvido como **atividade prática guiada**, permitindo que
 * Persistência de dados em MySQL
 * Segurança básica com sessões e prepared statements
 * Organização de projetos em pastas e módulos
+<img width="1751" height="929" alt="Captura de tela 2025-11-14 163343" src="https://github.com/user-attachments/assets/fe8ed248-c2b3-4e08-8243-a137761c5641" />
+
 
 ---
 
