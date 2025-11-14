@@ -7,7 +7,7 @@
 Sistema de classificados online desenvolvido em **PHP** e **MySQL**, com autenticação de usuários e gerenciamento de anúncios.
 Este projeto foi elaborado por mim como atividade prática para meus alunos do curso de **Desenvolvimento Backend PHP** do SENAI, com o objetivo de aplicar conceitos de back-end, banco de dados e integração front-end.
 
-### Link:
+### Link do site pronto:
 https://phpclassificados.infinityfreeapp.com/
 ---
 
