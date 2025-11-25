@@ -1,6 +1,7 @@
 # Mini Classificados SENAI
 
 ![Material_do_Professor_Max](https://img.shields.io/badge/Material_do_Professor_Max-Oficial-4c1?logo=google-scholar&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 
 
